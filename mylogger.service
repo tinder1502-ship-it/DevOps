@@ -1,0 +1,9 @@
+[Unit]
+Description=Random String Logger Service
+
+[Service]
+ExecStart=/bin/bash /путь/к/скрипту/logger.sh
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
